@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
 @plugin "@iconify/tailwind4" {
-  /* Opcional: selecciona qué sets de iconos quieres cargar para que sea más rápido */
-    icons: ["mdi", "ph", "ri"]; 
+  prefix: "i"; /* Esto le dice a Tailwind que busque clases que empiecen con i- */
+  icons: ["mdi", "ph", "ri", "game-icons"];
 }
